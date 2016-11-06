@@ -60,9 +60,13 @@ form {
 	background-color: #f0f4f7;
 	width: 35px;
 	height: 35px;
-	line-height: 35px;
+	line-height: 36px;
 	border-radius: 50%;
 	transition: .35s;
+   -webkit-user-select: none;  /* Chrome all / Safari all */
+   -moz-user-select: none;     /* Firefox all */
+   -ms-user-select: none;      /* IE 10+ */
+   user-select: none;
 }
 
 .temp__container p:hover {
