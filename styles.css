@@ -83,5 +83,12 @@ form {
 	.data__container {
 		height: 45%;	
 	}
+	
+	.weatherType {
+	height: 80px;
+	width: 80px;
+	margin: 4% 0 0 4%;
+	position: absolute;
+}
 }
 
