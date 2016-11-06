@@ -44,7 +44,7 @@ form {
 }
 
 .data__location {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .data__time {
@@ -55,7 +55,7 @@ form {
 
 .temp__container p{
 	display: inline-block;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 700;
 	background-color: #f0f4f7;
 	width: 38px;
@@ -67,9 +67,21 @@ form {
    -moz-user-select: none;     /* Firefox all */
    -ms-user-select: none;      /* IE 10+ */
    user-select: none;
+    cursor: pointer;
 }
 
 .temp__container p:hover {
 	background-color: #2d5270;
 	color: #f0f4f7;
 }
+
+@media (orientation: landscape) {
+	.background__container {
+		height: 55%;	
+	}
+	
+	.data__container {
+		height: 45%;	
+	}
+}
+
