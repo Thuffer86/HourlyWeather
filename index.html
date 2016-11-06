@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link rel="stylesheet" href="styles.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-   <script type="text/javascript">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hourly weather app, using DarkSky API</title>
+    <meta name="description" content="An interactive weather application.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script type="text/javascript">
      function initGeolocation()
      {
         if( navigator.geolocation )
@@ -26,7 +31,7 @@
 
      function fail()
      {
-        // Could not obtain location
+		 console.log('Something went wrong');
      }
    </script>    
  </head>
