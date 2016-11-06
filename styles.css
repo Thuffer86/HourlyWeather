@@ -1,0 +1,54 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body,html {
+	height: 100%;
+	background-color: #2d5270;
+	overflow-x: hidden;
+	font-family: 'montserrat', sans-serif;
+}
+
+form {
+	display: none;
+}
+
+.background__container {
+	height: 70%;
+	width: 100vw;
+	background: url(test2.svg) center no-repeat;
+	background-size: contain;
+	background-position: bottom;
+}
+
+.data__container {
+	position: relative;
+	height: 30%;
+	background-color: #f0f4f7;
+	text-align: center;
+	color: #2d5270;
+}
+
+.data__containerCenterfix {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.data__location {
+	font-size: 20px;
+}
+
+.data__time {
+	font-size: 12px;
+	padding: 10px 0;
+	font-weight: 400;
+}
+
+.temp__container p{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 5px;
+}
