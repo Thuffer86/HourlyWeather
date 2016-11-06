@@ -15,9 +15,9 @@ form {
 }
 
 .weatherType {
-	height: 75px;
-	width: 75px;
-	margin: 10% 0 0 10%;
+	height: 120px;
+	width: 120px;
+	margin: 5% 0 0 5%;
 	position: absolute;
 }
 
