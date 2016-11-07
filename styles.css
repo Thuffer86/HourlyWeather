@@ -119,6 +119,11 @@ form {
         height: 45px;
         line-height: 45px;
 }
+	
+		.data__time {
+		margin: 10px 0 10px 0;	
+	}
+    
     
 }
 
@@ -134,7 +139,7 @@ form {
         line-height: 60px;
 }
 	.data__time {
-		margin: 10px 0 10px 0;	
+		margin: 10px 0 15px 0;	
 	}
     
     .weatherType {
