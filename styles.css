@@ -80,9 +80,9 @@ form {
 	color: #f0f4f7;
 }
 
-.temp__container p:target {
+.temp__container p:focus {
 	background-color: #2d5270;
-	color: #f0f4f7;  
+	color: #f0f4f7;
 }
 
 .temp.active {
