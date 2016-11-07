@@ -1,33 +1,27 @@
-function initGeolocation()
-     {
-        if( navigator.geolocation )
-        {
-           // Call getCurrentPosition with success and failure callbacks
-           navigator.geolocation.getCurrentPosition( success, fail );
-        }
-        else
-        {
-           alert("Sorry, your browser does not support geolocation services.");
-        }
-     }
+$(function() {
 
-     function success(position)
-     {
+  var location = "http://ip-api.com/json";
+  $.getJSON(location, function(data) {
+    var lat = data.lat;
+    var lon = data.lon;
+	var city = (data.city);
+	
+ //apply location data to webpage
+	$(".data__location").html(city);
 
-        var positionLong  = position.coords.longitude;
-        var positionLat  = position.coords.latitude;
-		 		console.log(positionLat, positionLong);
+//GET DarkSky Data 
+	  $.getJSON("https://api.darksky.net/forecast/5cedbf3e31756f169d9dcd60b0549e09/" + lat + "," + lon, function(data) {
+		 	 
 		 
-
-     }
-
-     function fail()
-     {
-		 console.log('Something went wrong');
-     }
+	 });
+  });
+	
+});
 
 
 
+
+//Page Interactions
 $('.temp').click(function() {
 	$('.temp').removeClass('active');
     $(this).toggleClass('active');
