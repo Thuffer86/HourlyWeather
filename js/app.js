@@ -21,7 +21,7 @@ $.getJSON("https://crossorigin.me/https://api.darksky.net/forecast/5cedbf3e31756
 		  $("#neg1Hr").html( neg1Temp + "&deg");
 		  $("#neg2Hr").html( neg2Temp + "&deg");
 		  $("#pos1Hr").html( pos1Temp + "&deg");
-		  $("#pos2Hr").html( pos1Temp + "&deg");
+		  $("#pos2Hr").html( pos2Temp + "&deg");
 
 	 });
   });	
