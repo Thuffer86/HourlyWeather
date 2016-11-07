@@ -49,7 +49,7 @@ form {
 
 .data__time {
 	font-size: .7em;
-	padding: 7px 0;
+	padding: 10px 0 5px 0;
 	font-weight: 400;
 }
 
@@ -73,6 +73,21 @@ form {
 .temp__container p:hover {
 	background-color: #2d5270;
 	color: #f0f4f7;
+}
+
+.temp__container p:active {
+	background-color: #2d5270;
+	color: #f0f4f7;
+}
+
+.temp__container p:target {
+	background-color: #2d5270;
+	color: #f0f4f7;  
+}
+
+.temp.active {
+    background-color: #2d5270;
+    color: #f0f4f7;
 }
 
 @media (orientation: landscape) {
