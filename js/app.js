@@ -1,6 +1,6 @@
 $(function() {
 
-  var location = "https://ip-api.com/json";
+  var location = "https://ipinfo.io";
   $.getJSON(location, function(data) {
     var lat = data.lat;
     var lon = data.lon;
