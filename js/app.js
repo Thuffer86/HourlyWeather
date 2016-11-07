@@ -11,7 +11,7 @@ $(function() {
 	  
 	  
 //GET DarkSky Data 
-	  $.getJSON("http://cors.io/?u=https://api.darksky.net/forecast/5cedbf3e31756f169d9dcd60b0549e09/" + latLong , function(weatherData) {
+	  $.getJSON("https://cors.io/?u=https://api.darksky.net/forecast/5cedbf3e31756f169d9dcd60b0549e09/" + latLong , function(weatherData) {
 	var currentTemp = Math.round(weatherData.currently.apparentTemperature);
 	var neg1Temp = Math.round(weatherData.hourly.data[23].apparentTemperature);
 	var neg2Temp = Math.round(weatherData.hourly.data[22].apparentTemperature);
