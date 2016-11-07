@@ -93,11 +93,11 @@ form {
 
 @media (orientation: landscape) {
 	.background__container {
-		height: 55%;	
+		height: 50%;	
 	}
 	
 	.data__container {
-		height: 45%;	
+		height: 50%;	
 	}
 	
    .weatherType {
