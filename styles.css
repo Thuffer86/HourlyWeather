@@ -47,7 +47,7 @@ form {
 	font-size: 1em;
 }
 
-.data__time {
+.description{
 	font-size: .7em;
 	padding: 10px 0 5px 0;
 	font-weight: 400;
@@ -134,7 +134,7 @@ form {
         height: 60px;
         line-height: 60px;
 }
-	.data__time {
+	.description {
 		margin: 10px 0 15px 0;	
 	}
     
