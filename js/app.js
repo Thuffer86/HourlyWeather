@@ -1,3 +1,12 @@
+//Page Interactions
+$('.temp').click(function() {
+	$('.temp').removeClass('active');
+    $(this).toggleClass('active');
+    return false;
+  });
+
+
+
 $(function() {
 
   var location = "https://ipinfo.io";
@@ -30,11 +39,5 @@ $.getJSON("https://crossorigin.me/https://api.darksky.net/forecast/5cedbf3e31756
 
 
 
-//Page Interactions
-$('.temp').click(function() {
-	$('.temp').removeClass('active');
-    $(this).toggleClass('active');
-    return false;
-  });
 
 
