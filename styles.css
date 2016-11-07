@@ -68,6 +68,7 @@ form {
    -ms-user-select: none;      /* IE 10+ */
    user-select: none;
     cursor: pointer;
+	border: solid 2px #2d5270;
 }
 
 .temp__container p:hover {
