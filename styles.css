@@ -45,22 +45,17 @@ form {
 
 .data__location {
 	font-size: 1em;
-}
-
-.description {
-	font-size: .7em;
-	padding: 10px 0 5px 0;
-	font-weight: 400;
+    margin-bottom: .8em;
 }
 
 .temp__container p{
 	display: inline-block;
-	font-size: .7em;
+	font-size: .8em;
 	font-weight: 700;
 	background-color: #f0f4f7;
-	width: 35px;
-	height: 35px;
-	line-height: 35px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
 	border-radius: 50%;
 	transition: .35s;
    -webkit-user-select: none;  /* Chrome all / Safari all */
@@ -111,13 +106,13 @@ form {
 
 @media (min-width: 540px) {
     body {
-        font-size: 125%;
+        font-size: 150%;
     }
     
     .temp__container p{
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
 }
 	
     
@@ -126,17 +121,14 @@ form {
 @media (min-width: 880px) {
 
     body {
-        font-size: 175%;
+        font-size: 200%;
     }
     
     .temp__container p{
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
 }
-	.description {
-		margin: 10px 0 15px 0;	
-	}
     
     .weatherType {
 	height: 140px;
