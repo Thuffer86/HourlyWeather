@@ -63,7 +63,10 @@ form {
 	line-height: 38px;
 	border-radius: 50%;
 	transition: .35s;
-
+   -webkit-user-select: none;  /* Chrome all / Safari all */
+   -moz-user-select: none;     /* Firefox all */
+   -ms-user-select: none;      /* IE 10+ */
+   user-select: none;
     cursor: pointer;
 }
 
@@ -77,14 +80,14 @@ form {
 	color: #f0f4f7;
 }
 
-.temp__container p:focus {
+.temp__container p:target {
 	background-color: #2d5270;
-	color: #f0f4f7;
+	color: #f0f4f7;  
 }
 
 .temp.active {
-    background-color: #2d5270;
-    color: #f0f4f7;
+    background-color: #2d5270!important;
+    color: #f0f4f7!important;
 }
 
 @media (orientation: landscape) {
@@ -129,6 +132,9 @@ form {
         height: 60px;
         line-height: 60px;
 }
+	.data__time {
+		margin: 10px 0 10px 0;	
+	}
     
     .weatherType {
 	height: 140px;
